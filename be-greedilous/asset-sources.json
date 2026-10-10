@@ -1,0 +1,61 @@
+[
+  {
+    "asset": "assets/floral.webp",
+    "source": "https://greedilous.com/web/product/medium/202602/G26S-WS103_thumb.jpg",
+    "credit": "GREEDILOUS official website",
+    "size": [
+      1080,
+      1400
+    ]
+  },
+  {
+    "asset": "assets/check.webp",
+    "source": "https://greedilous.com/web/product/medium/202602/333a36612b230aced1858de28d95c3ce.jpg",
+    "credit": "GREEDILOUS official website",
+    "size": [
+      1080,
+      1400
+    ]
+  },
+  {
+    "asset": "assets/sequins.webp",
+    "source": "https://greedilous.com/web/product/medium/202602/G26S-WJP106_thumb.jpg",
+    "credit": "GREEDILOUS official website",
+    "size": [
+      1080,
+      1400
+    ]
+  },
+  {
+    "asset": "assets/PretendardVariable.woff2",
+    "source": "https://github.com/orioncactus/pretendard",
+    "credit": "Pretendard / SIL Open Font License"
+  },
+  {
+    "asset": "assets/echo-pattern.svg",
+    "source": "Original vector motif created for this rebranding proposal",
+    "credit": "ECHO G concept study"
+  },
+  {
+    "asset": "assets/echo-fashion.webp",
+    "source": "OpenAI ImageGen built-in generation",
+    "credit": "GREEDILOUS rebranding concept mockup",
+    "size": [
+      1122,
+      1402
+    ],
+    "original": "creative/echo-fashion.png",
+    "prompt": "creative/image-prompts.json"
+  },
+  {
+    "asset": "assets/echo-packaging.webp",
+    "source": "OpenAI ImageGen built-in generation",
+    "credit": "GREEDILOUS rebranding concept mockup",
+    "size": [
+      1254,
+      1254
+    ],
+    "original": "creative/echo-packaging.png",
+    "prompt": "creative/image-prompts.json"
+  }
+]
