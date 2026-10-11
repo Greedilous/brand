@@ -9,15 +9,15 @@
 1. BE GREEDILOUS — 기존 룩북을 도약 포즈와 두 겹의 잔상으로 재해석한 히어로
 2. 방향 — 이어갈 화려함, 더할 반복의 원리
 3. 브랜드 코어 — 나만의 화려함을 거듭 표현하라
-4. 시그니처 — G의 표현·반복·각인
-5. 패턴과 컬러 — 같은 형태의 변주, 딥레드 중심의 색 체계
+4. 시그니처 — 세 단계의 구조와 인터랙티브 G
+5. 컬러와 패턴 — 큰 레드 컬러 면, 같은 형태의 변주
 6. 키비주얼 — 겹침·확산·리듬의 세 가지 모션
-7. 적용 — 캠페인·라벨·패키지
+7. 적용 — 세 가지 포스터 변주와 크기가 다른 라벨·패키지 장면
 8. 다음 단계 — 세 접점에서 먼저 적용
 
 ## 편집과 게시
 
-본문은 index.html, 화면 구성은 styles.css, 첫 화면은 hero.css, 컬러 견본은 palette.css, 키비주얼 모션은 keyvisuals.css, 발표 이동·모션 설정·패턴 조절은 app.js에서 수정합니다. 별도의 빌드 없이 HTML·CSS·JavaScript로 동작합니다.
+본문은 index.html, 기본 스타일은 styles.css, UNNI 사례를 참고한 섹션 구성은 editorial.css, 첫 화면은 hero.css, 컬러 견본은 palette.css, 키비주얼 모션은 keyvisuals.css, 발표 이동·모션 설정·패턴 조절은 app.js에서 수정합니다. 별도의 빌드 없이 HTML·CSS·JavaScript로 동작합니다.
 
 기존 GitHub Pages 설정을 사용합니다. GitHub Desktop에서 main에 커밋하고 Push origin을 누르면 페이지가 갱신됩니다. 기존 저장소의 루트 홈페이지와 영상은 유지합니다.
 
@@ -27,7 +27,7 @@ INDEX와 이전·다음 버튼, 좌우 방향키 및 Page Up/Down으로 장을 �
 
 ## 디자인과 출처
 
-첫 화면은 기존 GREEDILOUS 체크·플라워 프린트 룩북을 내장 OpenAI ImageGen으로 포즈 변형한 콘셉트 이미지입니다. 의상의 프린트·색상·레드 슈즈를 참조해 도약 포즈로 재해석했으며, 두 겹의 실루엣이 반복의 리듬을 만듭니다. 그 외 장은 타이포그래피, SVG 시그니처, 패턴 및 CSS 적용 시안으로 구성했습니다. Plus X의 SLL 사례는 서사와 발표 구성만 참고했으며 자산을 복제하지 않았습니다. 로고·패턴·적용 그래픽은 리브랜딩 검토안입니다. 본문 참고 링크는 페이지 하단에, 자산 출처는 asset-sources.json에 있습니다. Pretendard의 라이선스는 assets/Pretendard-LICENSE.txt에 있습니다.
+첫 화면은 기존 GREEDILOUS 체크·플라워 프린트 룩북을 내장 OpenAI ImageGen으로 포즈 변형한 콘셉트 이미지입니다. 의상의 프린트·색상·레드 슈즈를 참조해 도약 포즈로 재해석했으며, 두 겹의 실루엣이 반복의 리듬을 만듭니다. 그 외 장은 타이포그래피, SVG 시그니처, 패턴 및 CSS 적용 시안으로 구성했습니다. Plus X의 SLL 사례는 초기 서사, UNNI 사례는 섹션 배치와 비율을 참고했습니다. 간결한 소개, 전체 폭의 비주얼, G의 단계별 구조, 큰 컬러 면, 비대칭 모션·적용 시안 순으로 구성하며 Plus X 자산은 복제하지 않았습니다. 로고·패턴·적용 그래픽은 리브랜딩 검토안입니다. 본문 참고 링크는 페이지 하단에, 자산 출처는 asset-sources.json에 있습니다. Pretendard의 라이선스는 assets/Pretendard-LICENSE.txt에 있습니다.
 
 히어로 최종 자산: assets/hero-lookbook-leap.png (1122 × 1402, 투명 PNG). 원본 출처와 생성 프롬프트: creative/hero-lookbook-prompt.json.
 

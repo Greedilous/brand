@@ -108,7 +108,7 @@
     }), { threshold: .08 });
     document.querySelectorAll('[data-reveal]').forEach(el => reveal.observe(el));
     const animation = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('offscreen-animation', !entry.isIntersecting)));
-    document.querySelectorAll('.fashion-figure,.attitude-ribbon,.kv-stage').forEach(el => animation.observe(el));
+    document.querySelectorAll('.fashion-figure,.attitude-ribbon,.core-value-art,.kv-stage').forEach(el => animation.observe(el));
   } else { document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-revealed')); }
   const updateVisibility = () => root.classList.toggle('page-inactive', document.hidden);
   document.addEventListener('visibilitychange', updateVisibility); updateVisibility();
