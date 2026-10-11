@@ -108,8 +108,10 @@
     }), { threshold: .08 });
     document.querySelectorAll('[data-reveal]').forEach(el => reveal.observe(el));
     const animation = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('offscreen-animation', !entry.isIntersecting)));
-    document.querySelectorAll('.cover-symbol,.attitude-ribbon').forEach(el => animation.observe(el));
+    document.querySelectorAll('.cover-symbol,.attitude-ribbon,.kv-stage').forEach(el => animation.observe(el));
   } else { document.querySelectorAll('[data-reveal]').forEach(el => el.classList.add('is-revealed')); }
+  const updateVisibility = () => root.classList.toggle('page-inactive', document.hidden);
+  document.addEventListener('visibilitychange', updateVisibility); updateVisibility();
   root.classList.add('js'); applyMotion(); render();
   addEventListener('scroll', schedule, { passive: true }); addEventListener('resize', schedule, { passive: true });
   addEventListener('pageshow', schedule); addEventListener('load', schedule);
