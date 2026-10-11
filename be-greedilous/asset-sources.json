@@ -1,5 +1,16 @@
 [
   {
+    "asset": "assets/hero-lookbook-leap.png",
+    "source": "https://greedilous.com/web/product/medium/202602/333a36612b230aced1858de28d95c3ce.jpg",
+    "credit": "GREEDILOUS official lookbook; pose reinterpreted with the built-in OpenAI ImageGen tool for this rebranding concept",
+    "size": [
+      1122,
+      1402
+    ],
+    "transparent_background": true,
+    "prompt": "creative/hero-lookbook-prompt.json"
+  },
+  {
     "asset": "assets/PretendardVariable.woff2",
     "source": "https://github.com/orioncactus/pretendard",
     "credit": "Pretendard / SIL Open Font License"
