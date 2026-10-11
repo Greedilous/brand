@@ -10,14 +10,14 @@
 2. 방향 — 이어갈 화려함, 더할 반복의 원리
 3. 브랜드 코어 — 나만의 화려함을 거듭 표현하라
 4. 시그니처 — G의 표현·반복·각인
-5. 패턴 — 같은 형태의 색과 크기 변주
+5. 패턴과 컬러 — 같은 형태의 변주, 딥레드 중심의 색 체계
 6. 키비주얼 — 겹침·확산·리듬의 세 가지 모션
 7. 적용 — 캠페인·라벨·패키지
 8. 다음 단계 — 세 접점에서 먼저 적용
 
 ## 편집과 게시
 
-본문은 index.html, 화면 구성은 styles.css, 첫 화면은 hero.css, 키비주얼 모션은 keyvisuals.css, 발표 이동·모션 설정·패턴 조절은 app.js에서 수정합니다. 별도의 빌드 없이 HTML·CSS·JavaScript로 동작합니다.
+본문은 index.html, 화면 구성은 styles.css, 첫 화면은 hero.css, 컬러 견본은 palette.css, 키비주얼 모션은 keyvisuals.css, 발표 이동·모션 설정·패턴 조절은 app.js에서 수정합니다. 별도의 빌드 없이 HTML·CSS·JavaScript로 동작합니다.
 
 기존 GitHub Pages 설정을 사용합니다. GitHub Desktop에서 main에 커밋하고 Push origin을 누르면 페이지가 갱신됩니다. 기존 저장소의 루트 홈페이지와 영상은 유지합니다.
 
@@ -30,3 +30,14 @@ INDEX와 이전·다음 버튼, 좌우 방향키 및 Page Up/Down으로 장을 �
 첫 화면은 기존 GREEDILOUS 체크·플라워 프린트 룩북을 내장 OpenAI ImageGen으로 포즈 변형한 콘셉트 이미지입니다. 의상의 프린트·색상·레드 슈즈를 참조해 도약 포즈로 재해석했으며, 두 겹의 실루엣이 반복의 리듬을 만듭니다. 그 외 장은 타이포그래피, SVG 시그니처, 패턴 및 CSS 적용 시안으로 구성했습니다. Plus X의 SLL 사례는 서사와 발표 구성만 참고했으며 자산을 복제하지 않았습니다. 로고·패턴·적용 그래픽은 리브랜딩 검토안입니다. 본문 참고 링크는 페이지 하단에, 자산 출처는 asset-sources.json에 있습니다. Pretendard의 라이선스는 assets/Pretendard-LICENSE.txt에 있습니다.
 
 히어로 최종 자산: assets/hero-lookbook-leap.png (1122 × 1402, 투명 PNG). 원본 출처와 생성 프롬프트: creative/hero-lookbook-prompt.json.
+
+## 제안 컬러
+
+기존의 짙은 레드라는 사용자 설명을 바탕으로 새 컬러 체계를 제안했습니다. 기존 브랜드의 공식 색상값을 복원한 것은 아닙니다.
+
+- Key Red: #B31B2B — 메인 히어로와 브랜드 시그니처
+- Deep Red: #650F1D — 공간과 패키지의 깊이
+- Vivid Red: #F25A50 — 모션과 어두운 배경의 강조
+- Ivory: #F6F1E9 — 타이포그래피와 여백
+
+레드 배경의 본문은 아이보리, 아이보리 배경의 강조는 Key Red, 어두운 배경의 작은 강조 글자는 Vivid Red로 대비를 확보했습니다.

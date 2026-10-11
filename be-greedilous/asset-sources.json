@@ -33,5 +33,15 @@
   {
     "reference": "https://www.plus-ex.com/experience#sll",
     "use": "Narrative and presentation reference only; no Plus X images, videos, logos or text were reproduced"
+  },
+  {
+    "asset": "Site color system and palette.css",
+    "source": "Original proposed palette based on the user’s description of an existing slightly dark red brand color",
+    "colors": {
+      "key_red": "#B31B2B",
+      "deep_red": "#650F1D",
+      "vivid_red": "#F25A50",
+      "ivory": "#F6F1E9"
+    }
   }
 ]
