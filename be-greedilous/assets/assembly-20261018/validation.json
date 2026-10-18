@@ -1,0 +1,16 @@
+{
+  "method": "Blender EXACT boolean intersections of closed ideal solids; bevel removes material",
+  "side_mm": 100.0,
+  "thickness_mm": 4.6,
+  "slot_width_mm": 4.9,
+  "slot_depth_mm": 15.3,
+  "end_clearance_mm": 0.08,
+  "travel_mm": 65.0,
+  "sample_step_mm": 0.5,
+  "total_pair_checks": 786,
+  "max_intersection_mm3": 0.0,
+  "positive_control_mm3": 18883.998169821272,
+  "nonmanifold_edges": 0,
+  "sequence": "B translates along -slot0 axis with C parked at 65 mm, then C translates along -slot1 axis with B seated. Orientations stay fixed.",
+  "limitations": "Ideal geometry and sampled rigid translations. Not a fabricated prototype or a retention/load/material certification."
+}

@@ -1,7 +1,7 @@
 [
   {
     "reference": "https://www.plus-ex.com/experience#unni",
-    "use": "Editorial layout and pacing reference: full-width imagery, left section labels, right explanatory copy, generous whitespace, centered values and image-led applications. No reference images, videos or original prose copied."
+    "use": "Reference for the previous editorial layout; current page is a two-section scroll assembly and application image composition."
   },
   {
     "asset": "assets/PretendardVariable.woff2",
@@ -61,7 +61,7 @@
     "credit": "Vector outline based on user reference"
   },
   {
-    "asset": "case-study.css",
+    "asset": "assembly.css",
     "colors": {
       "key_red": "#B31B2B",
       "deep_red": "#650F1D",
@@ -69,5 +69,27 @@
       "silver": "#B8B8B4"
     },
     "source": "Proposed palette based on the user's existing dark-red direction; silver represents a material finish"
+  },
+  {
+    "asset": "assets/assembly-20261018/module.json",
+    "source": "Original parameterized geometry from tools/export-assembly.py",
+    "credit": "User triangle reference; identical three-slot module with verified rigid translations",
+    "validation": "assets/assembly-20261018/validation.json"
+  },
+  {
+    "asset": "assets/metal-20261018/",
+    "source": "Blender Cycles Metal renders from tools/render-metal-sequence.py",
+    "credit": "Original, physically rendered image sequence of the project’s verified geometry",
+    "frames": 80,
+    "widths": [
+      640,
+      1200
+    ],
+    "materials": [
+      "red anodized metal",
+      "brushed silver",
+      "polished silver"
+    ],
+    "validation": "Same transforms as assets/assembly-20261018/module.json; verified by renderer before rendering"
   }
 ]

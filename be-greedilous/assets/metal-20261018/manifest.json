@@ -1,0 +1,19 @@
+{
+  "frames": 80,
+  "widths": [
+    640,
+    1200
+  ],
+  "format": "webp",
+  "alpha": true,
+  "renderer": "Blender Cycles Metal",
+  "geometry": "Identical verified solid modules; fixed relative angles; sequential collinear insertion",
+  "collisionChecks": 786,
+  "maxIntersection": 0,
+  "materials": [
+    "red anodized metal",
+    "brushed silver",
+    "polished silver"
+  ],
+  "bytes": 4126744
+}
