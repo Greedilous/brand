@@ -13,4 +13,4 @@ The supplied horizontal ellipse has four rectangular slots. A single module beco
 - Source symbol and geometry are code-native; application prompt set is in asset-sources.json.
 - Render script: ../tools/render-oval-sequence.py. Generated source PNGs and .blend remain in local creative/oval-proposal-20261018.
 
-Shared introduction: the existing GREEDILOUS lookbook pose repeats three times above a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.
+Shared introduction: a full-bleed GREEDILOUS-inspired runway concept appears above a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.

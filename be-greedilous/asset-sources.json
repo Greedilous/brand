@@ -110,6 +110,14 @@
     "credit": "Existing project image: GREEDILOUS lookbook pose edited with built-in ImageGen",
     "promptFile": "creative/hero-lookbook-prompt.json",
     "processing": "Responsive WebP export. One unchanged photographic unit repeated three times in HTML/CSS.",
-    "purpose": "Illustrate the legacy pattern-rich brand and an example of repetition as an identity rule. Three is a proposed example, not an established universal rule."
+    "purpose": "Illustrate the legacy pattern-rich brand and an example of repetition as an identity rule. Three is a proposed example, not an established universal rule.",
+    "status": "Earlier opening composition; superseded by the runway concept."
+  },
+  {
+    "asset": "assets/runway-20261018/runway-*.webp",
+    "source": "creative/runway-origin-20261018/runway.png",
+    "credit": "Fashion-show concept created with built-in image_gen, inspired by the existing GREEDILOUS lookbook print language",
+    "promptFile": "assets/runway-20261018/provenance.json",
+    "status": "AI-generated concept, not documentary event photography"
   }
 ]
