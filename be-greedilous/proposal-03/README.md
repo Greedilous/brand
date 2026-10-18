@@ -18,4 +18,4 @@ The typography is a material-and-camera reveal, not a mechanical slot assembly. 
 - Reduced-motion / missing Canvas / disabled JavaScript fallbacks retain the static identity.
 - Desktop and mobile gallery layouts fit all four applications in one viewport.
 
-Shared introduction: a full-bleed GREEDILOUS-inspired runway concept appears above a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.
+Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.

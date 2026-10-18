@@ -1,23 +1,21 @@
-/* Full-bleed runway photography for the shared brand introduction. */
-.brand-origin{height:100svh;position:relative;overflow:hidden;isolation:isolate;background:#250710}
-.origin-visual{position:absolute;inset:64px 0 0;overflow:hidden;background:#250710;mask-image:linear-gradient(to bottom,transparent,#000 28px)}
-.origin-runway{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% top}
-.brand-origin::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(20,3,10,.08) 0%,transparent 42%,rgba(20,3,10,.28) 62%,rgba(20,3,10,.82) 100%)}
+/* Full-bleed red textile pattern for the shared brand introduction. */
+.brand-origin{height:100svh;position:relative;overflow:hidden;isolation:isolate;background:#650f1d}
+.origin-visual{position:absolute;inset:0;overflow:hidden;background:#650f1d}
+.origin-fabric{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+.brand-origin::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(28,3,10,.08) 0%,transparent 38%,rgba(28,3,10,.32) 65%,rgba(28,3,10,.9) 100%)}
 .origin-copy{position:absolute;z-index:2;left:4.4vw;right:4.4vw;bottom:clamp(32px,4.4vw,66px);display:grid;grid-template-columns:1.1fr 1fr;gap:6vw;align-items:end;color:rgba(255,242,229,.76)}
 .origin-copy h1{font-size:clamp(26px,3.05vw,52px);line-height:1.3;letter-spacing:-.055em;font-weight:400;word-break:keep-all}
 .origin-definition{font-size:clamp(12px,1.03vw,16px);line-height:1.9;letter-spacing:-.025em;font-weight:400;word-break:keep-all;color:rgba(255,242,229,.69)}
 .origin-definition p+p{margin-top:18px}
 .origin-definition strong{font-weight:500;color:rgba(255,242,229,.88)}
 @media(min-aspect-ratio:2/1){
- .origin-runway{object-position:50% top}
  .origin-copy{grid-template-columns:1fr 1.2fr;gap:5vw;bottom:26px}
  .origin-copy h1{font-size:2.8vw}
  .origin-definition{font-size:12px;line-height:1.65}
  .origin-definition p+p{margin-top:10px}
 }
 @media(max-width:700px){
- .origin-runway{object-position:50% center}
- .brand-origin::after{background:linear-gradient(180deg,rgba(20,3,10,.08) 0%,transparent 32%,rgba(20,3,10,.18) 47%,rgba(20,3,10,.78) 72%,rgba(20,3,10,.95) 100%)}
+ .brand-origin::after{background:linear-gradient(180deg,rgba(28,3,10,.08) 0%,transparent 32%,rgba(28,3,10,.25) 47%,rgba(28,3,10,.8) 72%,rgba(28,3,10,.96) 100%)}
  .origin-copy{left:24px;right:24px;bottom:30px;display:block}
  .origin-copy h1{font-size:clamp(23px,5.9vw,35px);line-height:1.35}
  .origin-definition{font-size:12px;line-height:1.75;margin-top:20px}

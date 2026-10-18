@@ -118,6 +118,13 @@
     "source": "creative/runway-origin-20261018/runway.png",
     "credit": "Fashion-show concept created with built-in image_gen, inspired by the existing GREEDILOUS lookbook print language",
     "promptFile": "assets/runway-20261018/provenance.json",
-    "status": "AI-generated concept, not documentary event photography"
+    "status": "Earlier AI-generated opening; superseded by the red textile background."
+  },
+  {
+    "asset": "assets/fabric-20261018/fabric-*.webp",
+    "source": "creative/fabric-origin-20261018/fabric.png",
+    "credit": "Tonal red check-and-floral woven fabric concept created with built-in image_gen using the existing GREEDILOUS print reference",
+    "promptFile": "assets/fabric-20261018/provenance.json",
+    "status": "AI-generated textile background concept"
   }
 ]
