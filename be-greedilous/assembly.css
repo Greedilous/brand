@@ -8,9 +8,11 @@
 .ghost-type span:last-child{align-self:flex-end}
 .assembly-visual{position:absolute;inset:0;z-index:1}
 #assembly-canvas{display:block;width:100%;height:100%;opacity:0;transition:opacity .65s;pointer-events:none}
-.assembly-fallback{position:absolute;width:min(85vw,92svh);height:min(85vw,92svh);left:50%;top:47.5%;transform:translate(-50%,-50%);object-fit:contain}
+.assembly-fallback{position:absolute;width:min(87vw,96svh);height:min(87vw,96svh);left:50%;top:47.5%;transform:translate(-50%,-50%);object-fit:contain}
 .scene-ready #assembly-canvas{opacity:1}.scene-ready .assembly-fallback{opacity:0;visibility:hidden}
-.motion-ready .assembly-story{height:340svh}
+.motion-ready .assembly-story{height:500svh}
+.ghost-type{opacity:calc(1 - var(--detail-focus,0)*.8)}
+.ghost-overview{opacity:calc(1 - var(--detail-focus,0)*.75)}
 .ghost-overview{position:absolute;left:4.4vw;right:4.4vw;bottom:clamp(28px,4.4vw,66px);z-index:3;display:flex;align-items:flex-end;justify-content:space-between;gap:30px;pointer-events:none}
 .ghost-overview h2{font-weight:400;font-size:clamp(23px,2.7vw,46px);letter-spacing:-.045em;line-height:1.32;color:rgba(255,239,226,.62)}
 .ghost-overview p{font-size:clamp(11px,.95vw,15px);font-weight:400;line-height:1.8;letter-spacing:-.02em;color:rgba(255,239,226,.53)}
@@ -29,7 +31,7 @@
  .ghost-overview{left:24px;right:24px;bottom:32px;display:block}
  .ghost-overview h2{font-size:28px;line-height:1.28}
  .ghost-overview p{margin-top:16px;font-size:11px;line-height:1.7}
- .motion-ready .assembly-story{height:300svh}
+ .motion-ready .assembly-story{height:460svh}
  .applications{height:100svh;grid-template-columns:1fr 1fr;grid-template-rows:62fr 38fr}
  .application-bag{grid-column:1;grid-row:1}.application-jacket{grid-column:2;grid-row:1}
  .application-package{grid-column:1;grid-row:2}.application-retail{grid-column:2;grid-row:2}

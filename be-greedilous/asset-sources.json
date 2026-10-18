@@ -91,5 +91,17 @@
       "polished silver"
     ],
     "validation": "Same transforms as assets/assembly-20261018/module.json; verified by renderer before rendering"
+  },
+  {
+    "asset": "assets/metal-closeup-20261018/",
+    "source": "Blender Cycles Metal renders from tools/render-metal-sequence.py",
+    "frames": 144,
+    "widths": [
+      720,
+      1400
+    ],
+    "credit": "Original macro image sequence of the verified assembly",
+    "camera": "Tracks exact slot blind-end midpoints, 58 mm macro span; bigger opening and slower final 12 mm insertion; no geometry or material changes",
+    "validation": "Unchanged verified base transforms and axes; sequential motion asserted per frame; camera-timeline.json records every rendered pose"
   }
 ]

@@ -4,9 +4,9 @@ const canvas = document.querySelector('#assembly-canvas');
 const context = canvas.getContext('2d', { alpha: true });
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const clamp = n => Math.min(1, Math.max(0, n));
-const FRAME_COUNT = 80;
+const FRAME_COUNT = 144;
 const MOBILE = matchMedia('(max-width: 700px)').matches;
-const FRAME_ROOT = './assets/metal-20261018/' + (MOBILE ? '640' : '1200') + '/';
+const FRAME_ROOT = './assets/metal-closeup-20261018/' + (MOBILE ? '720' : '1400') + '/';
 const blobs = new Map(), bitmaps = new Map(), requests = new Map(), decoding = new Map();
 const failed = new Set();
 let queue = [], active = 0, frameRequest = 0, current = 0, target = 0;
@@ -14,6 +14,12 @@ let visible = true, ready = false, stopped = false, width = 1, height = 1, lastT
 
 function frameURL(index) { return FRAME_ROOT + 'frame-' + String(index).padStart(3, '0') + '.webp'; }
 function desiredFrame() { return Math.round(current * (FRAME_COUNT - 1)); }
+function ease(value) { const t=clamp(value);return t*t*(3-2*t); }
+function closeupWeight(progress) {
+ const first=ease((progress-.08)/.14)*(1-ease((progress-.43)/.06));
+ const second=ease((progress-.52)/.14)*(1-ease((progress-.88)/.12));
+ return Math.max(first,second);
+}
 function scrollProgress() {
  if (reducedMotion.matches) return 1;
  return clamp(-story.getBoundingClientRect().top / Math.max(1, story.offsetHeight - stage.offsetHeight));
@@ -87,18 +93,26 @@ function paint() {
  const image = bitmaps.get(selected);
  context.clearRect(0,0,width,height);
  // Each frame is one physically rendered assembly, never a crossfade between parts.
- const size = Math.min(width < 701 ? width * 1.12 : width * .85, height * (width < 701 ? .7 : .92));
- const x=(width-size)/2, y=(height-size)/2-height*(width < 701 ? .055 : .025);
+ const progress=selected/(FRAME_COUNT-1);
+ const detail=closeupWeight(progress);
+ const settle=1-ease((progress-.9)/.1)*.08;
+ const wideSize=Math.min(width < 701 ? width*1.22 : width*.95,height*(width < 701 ? .76 : 1.04))*settle;
+ const closeSize=Math.max(width,height)*1.025;
+ const size=wideSize+(closeSize-wideSize)*detail;
+ const lift=(width < 701 ? .055 : .025)*(1-detail);
+ const x=(width-size)/2, y=(height-size)/2-height*lift;
  context.drawImage(image,x,y,size,size);
+ stage.style.setProperty('--detail-focus',detail.toFixed(4));
  canvas.dataset.frame=String(selected);
  canvas.dataset.progress=current.toFixed(4);
  canvas.dataset.loaded=String(blobs.size);
+ canvas.dataset.closeup=detail.toFixed(4);
 }
 function tick(time) {
  frameRequest=0;
  if (!ready || !visible || document.hidden || stopped) return;
  const delta=Math.min(50,lastTime ? time-lastTime : 16);lastTime=time;
- current=reducedMotion.matches ? 1 : current+(target-current)*(1-Math.exp(-delta/85));
+ current=reducedMotion.matches ? 1 : current+(target-current)*(1-Math.exp(-delta/125));
  if(Math.abs(current-target)<.0001)current=target;
  const index=desiredFrame();
  prepare(index);
@@ -145,7 +159,11 @@ async function start() {
  addEventListener('resize',resize,{passive:true});
  document.addEventListener('visibilitychange',schedule);
  reducedMotion.addEventListener('change',preferenceChanged);
- if(!reducedMotion.matches){await prepare(FRAME_COUNT-1);preload();}
+ if(!reducedMotion.matches){
+  await prepare(FRAME_COUNT-1);
+  fetchFrame(43,true);fetchFrame(107,true);
+  preload();
+ }
 }
 start().catch(()=>{
  document.documentElement.classList.remove('scene-ready','motion-ready');

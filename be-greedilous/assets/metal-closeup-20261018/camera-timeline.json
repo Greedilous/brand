@@ -1,0 +1,1746 @@
+{
+  "frames": 144,
+  "width": 1400,
+  "height": 1400,
+  "samples": 40,
+  "renderer": "Blender Cycles Metal",
+  "source": "verified-assembly.blend",
+  "geometry": "Same fixed orientations and straight insertion translations as validated module.json",
+  "materials": [
+    "deep red anodized metal",
+    "brushed warm silver",
+    "polished silver"
+  ],
+  "alpha": true,
+  "macro_span_mm": 58,
+  "timeline": [
+    {
+      "frame": 0,
+      "progress": 0.0,
+      "offsets": [
+        0,
+        65,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.3844299316406
+    },
+    {
+      "frame": 1,
+      "progress": 0.006993006993006993,
+      "offsets": [
+        0,
+        65,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.3844299316406
+    },
+    {
+      "frame": 2,
+      "progress": 0.013986013986013986,
+      "offsets": [
+        0,
+        65,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.3844299316406
+    },
+    {
+      "frame": 3,
+      "progress": 0.02097902097902098,
+      "offsets": [
+        0,
+        65,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.3844299316406
+    },
+    {
+      "frame": 4,
+      "progress": 0.027972027972027972,
+      "offsets": [
+        0,
+        65,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.3844299316406
+    },
+    {
+      "frame": 5,
+      "progress": 0.03496503496503497,
+      "offsets": [
+        0,
+        64.79956390431785,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 261.1954345703125
+    },
+    {
+      "frame": 6,
+      "progress": 0.04195804195804196,
+      "offsets": [
+        0,
+        63.88012746045217,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 260.32861328125
+    },
+    {
+      "frame": 7,
+      "progress": 0.04895104895104895,
+      "offsets": [
+        0,
+        62.294810174943734,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 258.83404541015625
+    },
+    {
+      "frame": 8,
+      "progress": 0.055944055944055944,
+      "offsets": [
+        0,
+        60.13140121610403,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 256.79443359375
+    },
+    {
+      "frame": 9,
+      "progress": 0.06293706293706294,
+      "offsets": [
+        0,
+        57.477689752244565,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 254.29258728027344
+    },
+    {
+      "frame": 10,
+      "progress": 0.06993006993006994,
+      "offsets": [
+        0,
+        54.42146495167685,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 251.41127014160156
+    },
+    {
+      "frame": 11,
+      "progress": 0.07692307692307693,
+      "offsets": [
+        0,
+        51.05051598271238,
+        65
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 248.2332305908203
+    },
+    {
+      "frame": 12,
+      "progress": 0.08391608391608392,
+      "offsets": [
+        0,
+        47.45263201366268,
+        65
+      ],
+      "closeup": 0.00230353049561813,
+      "joint": 0,
+      "camera_scale": 244.41085815429688
+    },
+    {
+      "frame": 13,
+      "progress": 0.09090909090909091,
+      "offsets": [
+        0,
+        43.715602212839244,
+        65
+      ],
+      "closeup": 0.017269288309935973,
+      "joint": 0,
+      "camera_scale": 238.15231323242188
+    },
+    {
+      "frame": 14,
+      "progress": 0.0979020979020979,
+      "offsets": [
+        0,
+        39.927215748553564,
+        65
+      ],
+      "closeup": 0.044872097047693675,
+      "joint": 0,
+      "camera_scale": 229.680908203125
+    },
+    {
+      "frame": 15,
+      "progress": 0.1048951048951049,
+      "offsets": [
+        0,
+        36.17526178911717,
+        65
+      ],
+      "closeup": 0.08361644772386875,
+      "joint": 0,
+      "camera_scale": 219.4752655029297
+    },
+    {
+      "frame": 16,
+      "progress": 0.11188811188811189,
+      "offsets": [
+        0,
+        32.547529502841556,
+        65
+      ],
+      "closeup": 0.13200683135343877,
+      "joint": 0,
+      "camera_scale": 207.97979736328125
+    },
+    {
+      "frame": 17,
+      "progress": 0.11888111888111888,
+      "offsets": [
+        0,
+        29.131808058038217,
+        65
+      ],
+      "closeup": 0.18854773895138124,
+      "joint": 0,
+      "camera_scale": 195.59707641601562
+    },
+    {
+      "frame": 18,
+      "progress": 0.1258741258741259,
+      "offsets": [
+        0,
+        26.01588662301868,
+        65
+      ],
+      "closeup": 0.2517436615326738,
+      "joint": 0,
+      "camera_scale": 182.68292236328125
+    },
+    {
+      "frame": 19,
+      "progress": 0.13286713286713286,
+      "offsets": [
+        0,
+        23.287554366094447,
+        65
+      ],
+      "closeup": 0.3200990901122936,
+      "joint": 0,
+      "camera_scale": 169.5439453125
+    },
+    {
+      "frame": 20,
+      "progress": 0.13986013986013987,
+      "offsets": [
+        0,
+        21.034600455577,
+        65
+      ],
+      "closeup": 0.3921185157052188,
+      "joint": 0,
+      "camera_scale": 156.43734741210938
+    },
+    {
+      "frame": 21,
+      "progress": 0.14685314685314685,
+      "offsets": [
+        0,
+        19.344814059777875,
+        65
+      ],
+      "closeup": 0.46630642932642613,
+      "joint": 0,
+      "camera_scale": 143.57350158691406
+    },
+    {
+      "frame": 22,
+      "progress": 0.15384615384615385,
+      "offsets": [
+        0,
+        18.305984347008554,
+        65
+      ],
+      "closeup": 0.541167321990894,
+      "joint": 0,
+      "camera_scale": 131.12078857421875
+    },
+    {
+      "frame": 23,
+      "progress": 0.16083916083916083,
+      "offsets": [
+        0,
+        17.996511874843332,
+        65
+      ],
+      "closeup": 0.6152056847135992,
+      "joint": 0,
+      "camera_scale": 119.20956420898438
+    },
+    {
+      "frame": 24,
+      "progress": 0.16783216783216784,
+      "offsets": [
+        0,
+        17.719977264111453,
+        65
+      ],
+      "closeup": 0.6869260085095198,
+      "joint": 0,
+      "camera_scale": 107.71932983398438
+    },
+    {
+      "frame": 25,
+      "progress": 0.17482517482517482,
+      "offsets": [
+        0,
+        17.08209112571184,
+        65
+      ],
+      "closeup": 0.7548327843936329,
+      "joint": 0,
+      "camera_scale": 96.78760528564453
+    },
+    {
+      "frame": 26,
+      "progress": 0.18181818181818182,
+      "offsets": [
+        0,
+        16.196844477836212,
+        65
+      ],
+      "closeup": 0.8174305033809166,
+      "joint": 0,
+      "camera_scale": 86.73172760009766
+    },
+    {
+      "frame": 27,
+      "progress": 0.1888111888111888,
+      "offsets": [
+        0,
+        15.178228338676284,
+        65
+      ],
+      "closeup": 0.8732236564863477,
+      "joint": 0,
+      "camera_scale": 77.82958221435547
+    },
+    {
+      "frame": 28,
+      "progress": 0.1958041958041958,
+      "offsets": [
+        0,
+        14.14023372642376,
+        65
+      ],
+      "closeup": 0.9207167347249043,
+      "joint": 0,
+      "camera_scale": 70.32341766357422
+    },
+    {
+      "frame": 29,
+      "progress": 0.20279720279720279,
+      "offsets": [
+        0,
+        13.19685165927036,
+        65
+      ],
+      "closeup": 0.9584142291115636,
+      "joint": 0,
+      "camera_scale": 64.42691040039062
+    },
+    {
+      "frame": 30,
+      "progress": 0.2097902097902098,
+      "offsets": [
+        0,
+        12.462073155407793,
+        65
+      ],
+      "closeup": 0.9848206306613034,
+      "joint": 0,
+      "camera_scale": 60.335391998291016
+    },
+    {
+      "frame": 31,
+      "progress": 0.21678321678321677,
+      "offsets": [
+        0,
+        12.049889233027773,
+        65
+      ],
+      "closeup": 0.998440430389101,
+      "joint": 0,
+      "camera_scale": 58.23933792114258
+    },
+    {
+      "frame": 32,
+      "progress": 0.22377622377622378,
+      "offsets": [
+        0,
+        11.985968053533467,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 33,
+      "progress": 0.23076923076923078,
+      "offsets": [
+        0,
+        11.888715164677038,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 34,
+      "progress": 0.23776223776223776,
+      "offsets": [
+        0,
+        11.704985322372659,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 35,
+      "progress": 0.24475524475524477,
+      "offsets": [
+        0,
+        11.44195801632128,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 36,
+      "progress": 0.2517482517482518,
+      "offsets": [
+        0,
+        11.106812736223853,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 37,
+      "progress": 0.25874125874125875,
+      "offsets": [
+        0,
+        10.706728971781331,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 38,
+      "progress": 0.26573426573426573,
+      "offsets": [
+        0,
+        10.24888621269466,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 39,
+      "progress": 0.2727272727272727,
+      "offsets": [
+        0,
+        9.740463948664795,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 40,
+      "progress": 0.27972027972027974,
+      "offsets": [
+        0,
+        9.188641669392677,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 41,
+      "progress": 0.2867132867132867,
+      "offsets": [
+        0,
+        8.60059886457927,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 42,
+      "progress": 0.2937062937062937,
+      "offsets": [
+        0,
+        7.983515023925517,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 43,
+      "progress": 0.3006993006993007,
+      "offsets": [
+        0,
+        7.34456963713237,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 44,
+      "progress": 0.3076923076923077,
+      "offsets": [
+        0,
+        6.690942193900774,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 45,
+      "progress": 0.3146853146853147,
+      "offsets": [
+        0,
+        6.029812183931689,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 46,
+      "progress": 0.32167832167832167,
+      "offsets": [
+        0,
+        5.3683590969260635,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 47,
+      "progress": 0.32867132867132864,
+      "offsets": [
+        0,
+        4.713762422584843,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 48,
+      "progress": 0.3356643356643357,
+      "offsets": [
+        0,
+        4.0732016506089765,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 49,
+      "progress": 0.34265734265734266,
+      "offsets": [
+        0,
+        3.453856270699424,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 50,
+      "progress": 0.34965034965034963,
+      "offsets": [
+        0,
+        2.8629057725571307,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 51,
+      "progress": 0.35664335664335667,
+      "offsets": [
+        0,
+        2.3075296458830437,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 52,
+      "progress": 0.36363636363636365,
+      "offsets": [
+        0,
+        1.7949073803781204,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 53,
+      "progress": 0.3706293706293706,
+      "offsets": [
+        0,
+        1.3322184657433098,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 54,
+      "progress": 0.3776223776223776,
+      "offsets": [
+        0,
+        0.9266423916795592,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 55,
+      "progress": 0.38461538461538464,
+      "offsets": [
+        0,
+        0.5853586478878192,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 56,
+      "progress": 0.3916083916083916,
+      "offsets": [
+        0,
+        0.3155467240690424,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 57,
+      "progress": 0.3986013986013986,
+      "offsets": [
+        0,
+        0.12438610992417942,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 58,
+      "progress": 0.40559440559440557,
+      "offsets": [
+        0,
+        0.01905629515417928,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 59,
+      "progress": 0.4125874125874126,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 60,
+      "progress": 0.4195804195804196,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 61,
+      "progress": 0.42657342657342656,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 1,
+      "joint": 0,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 62,
+      "progress": 0.43356643356643354,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.989820488084462,
+      "joint": 0,
+      "camera_scale": 59.44655227661133
+    },
+    {
+      "frame": 63,
+      "progress": 0.4405594405594406,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.9179836650617614,
+      "joint": 0,
+      "camera_scale": 69.65486907958984
+    },
+    {
+      "frame": 64,
+      "progress": 0.44755244755244755,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.7933310036102347,
+      "joint": 0,
+      "camera_scale": 87.36854553222656
+    },
+    {
+      "frame": 65,
+      "progress": 0.45454545454545453,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.6348610067618334,
+      "joint": 0,
+      "camera_scale": 109.88780975341797
+    },
+    {
+      "frame": 66,
+      "progress": 0.46153846153846156,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.461572177548508,
+      "joint": 0,
+      "camera_scale": 134.5128936767578
+    },
+    {
+      "frame": 67,
+      "progress": 0.46853146853146854,
+      "offsets": [
+        0,
+        0,
+        65
+      ],
+      "closeup": 0.2924630190022136,
+      "joint": 0,
+      "camera_scale": 158.54403686523438
+    },
+    {
+      "frame": 68,
+      "progress": 0.4755244755244755,
+      "offsets": [
+        0,
+        0,
+        64.75258101427312
+      ],
+      "closeup": 0.14653203415490068,
+      "joint": 0,
+      "camera_scale": 179.08807373046875
+    },
+    {
+      "frame": 69,
+      "progress": 0.4825174825174825,
+      "offsets": [
+        0,
+        0,
+        63.77664346168216
+      ],
+      "closeup": 0.04277772603852137,
+      "joint": 0,
+      "camera_scale": 192.9530029296875
+    },
+    {
+      "frame": 70,
+      "progress": 0.48951048951048953,
+      "offsets": [
+        0,
+        0,
+        62.141848200913344
+      ],
+      "closeup": 0.00019859768502739072,
+      "joint": 0,
+      "camera_scale": 197.4591827392578
+    },
+    {
+      "frame": 71,
+      "progress": 0.4965034965034965,
+      "offsets": [
+        0,
+        0,
+        59.9359844002782
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 195.4668426513672
+    },
+    {
+      "frame": 72,
+      "progress": 0.5034965034965035,
+      "offsets": [
+        0,
+        0,
+        57.24684122808819
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 193.0042266845703
+    },
+    {
+      "frame": 73,
+      "progress": 0.5104895104895105,
+      "offsets": [
+        0,
+        0,
+        54.16220785265487
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 190.17942810058594
+    },
+    {
+      "frame": 74,
+      "progress": 0.5174825174825175,
+      "offsets": [
+        0,
+        0,
+        50.769873442289736
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 187.07286071777344
+    },
+    {
+      "frame": 75,
+      "progress": 0.5244755244755245,
+      "offsets": [
+        0,
+        0,
+        47.15762716530428
+      ],
+      "closeup": 0.0030005254191657004,
+      "joint": 1,
+      "camera_scale": 183.38754272460938
+    },
+    {
+      "frame": 76,
+      "progress": 0.5314685314685315,
+      "offsets": [
+        0,
+        0,
+        43.41325819001
+      ],
+      "closeup": 0.019032282038007487,
+      "joint": 1,
+      "camera_scale": 178.0076141357422
+    },
+    {
+      "frame": 77,
+      "progress": 0.5384615384615384,
+      "offsets": [
+        0,
+        0,
+        39.624555684718416
+      ],
+      "closeup": 0.047581448861487276,
+      "joint": 1,
+      "camera_scale": 171.21055603027344
+    },
+    {
+      "frame": 78,
+      "progress": 0.5454545454545454,
+      "offsets": [
+        0,
+        0,
+        35.87930881774102
+      ],
+      "closeup": 0.08715251690458263,
+      "joint": 1,
+      "camera_scale": 163.37603759765625
+    },
+    {
+      "frame": 79,
+      "progress": 0.5524475524475524,
+      "offsets": [
+        0,
+        0,
+        32.26530675738933
+      ],
+      "closeup": 0.13624997718227105,
+      "joint": 1,
+      "camera_scale": 154.84974670410156
+    },
+    {
+      "frame": 80,
+      "progress": 0.5594405594405595,
+      "offsets": [
+        0,
+        0,
+        28.870338671974793
+      ],
+      "closeup": 0.19337832070953112,
+      "joint": 1,
+      "camera_scale": 146.98977661132812
+    },
+    {
+      "frame": 81,
+      "progress": 0.5664335664335665,
+      "offsets": [
+        0,
+        0,
+        25.78219372980903
+      ],
+      "closeup": 0.2570420385013385,
+      "joint": 1,
+      "camera_scale": 139.43739318847656
+    },
+    {
+      "frame": 82,
+      "progress": 0.5734265734265734,
+      "offsets": [
+        0,
+        0,
+        23.088661099203478
+      ],
+      "closeup": 0.32574562157267145,
+      "joint": 1,
+      "camera_scale": 131.4881134033203
+    },
+    {
+      "frame": 83,
+      "progress": 0.5804195804195804,
+      "offsets": [
+        0,
+        0,
+        20.877529948469636
+      ],
+      "closeup": 0.3979935609385078,
+      "joint": 1,
+      "camera_scale": 123.30692291259766
+    },
+    {
+      "frame": 84,
+      "progress": 0.5874125874125874,
+      "offsets": [
+        0,
+        0,
+        19.236589445919037
+      ],
+      "closeup": 0.4722903476138249,
+      "joint": 1,
+      "camera_scale": 115.04749298095703
+    },
+    {
+      "frame": 85,
+      "progress": 0.5944055944055944,
+      "offsets": [
+        0,
+        0,
+        18.25362875986316
+      ],
+      "closeup": 0.5471404726136002,
+      "joint": 1,
+      "camera_scale": 106.85330963134766
+    },
+    {
+      "frame": 86,
+      "progress": 0.6013986013986014,
+      "offsets": [
+        0,
+        0,
+        17.99037155866341
+      ],
+      "closeup": 0.6210484269528116,
+      "joint": 1,
+      "camera_scale": 98.85733032226562
+    },
+    {
+      "frame": 87,
+      "progress": 0.6083916083916084,
+      "offsets": [
+        0,
+        0,
+        17.680733956248645
+      ],
+      "closeup": 0.6925187016464373,
+      "joint": 1,
+      "camera_scale": 91.12969207763672
+    },
+    {
+      "frame": 88,
+      "progress": 0.6153846153846154,
+      "offsets": [
+        0,
+        0,
+        17.018864107621496
+      ],
+      "closeup": 0.7600557877094527,
+      "joint": 1,
+      "camera_scale": 83.8162841796875
+    },
+    {
+      "frame": 89,
+      "progress": 0.6223776223776224,
+      "offsets": [
+        0,
+        0,
+        16.118753030973668
+      ],
+      "closeup": 0.8221641761568368,
+      "joint": 1,
+      "camera_scale": 77.09697723388672
+    },
+    {
+      "frame": 90,
+      "progress": 0.6293706293706294,
+      "offsets": [
+        0,
+        0,
+        15.094391744496876
+      ],
+      "closeup": 0.8773483580035668,
+      "joint": 1,
+      "camera_scale": 71.14204406738281
+    },
+    {
+      "frame": 91,
+      "progress": 0.6363636363636364,
+      "offsets": [
+        0,
+        0,
+        14.059771266382828
+      ],
+      "closeup": 0.9241128242646203,
+      "joint": 1,
+      "camera_scale": 66.11316680908203
+    },
+    {
+      "frame": 92,
+      "progress": 0.6433566433566433,
+      "offsets": [
+        0,
+        0,
+        13.128882614823244
+      ],
+      "closeup": 0.9609620659549748,
+      "joint": 1,
+      "camera_scale": 62.16520690917969
+    },
+    {
+      "frame": 93,
+      "progress": 0.6503496503496503,
+      "offsets": [
+        0,
+        0,
+        12.415716808009826
+      ],
+      "closeup": 0.9864005740896081,
+      "joint": 1,
+      "camera_scale": 59.44877624511719
+    },
+    {
+      "frame": 94,
+      "progress": 0.6573426573426573,
+      "offsets": [
+        0,
+        0,
+        12.034264864134295
+      ],
+      "closeup": 0.9989328396834976,
+      "joint": 1,
+      "camera_scale": 58.11359405517578
+    },
+    {
+      "frame": 95,
+      "progress": 0.6643356643356644,
+      "offsets": [
+        0,
+        0,
+        11.981539265653273
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 96,
+      "progress": 0.6713286713286714,
+      "offsets": [
+        0,
+        0,
+        11.877104015300011
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 97,
+      "progress": 0.6783216783216783,
+      "offsets": [
+        0,
+        0,
+        11.686766170674877
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 98,
+      "progress": 0.6853146853146853,
+      "offsets": [
+        0,
+        0,
+        11.417705221478819
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 99,
+      "progress": 0.6923076923076923,
+      "offsets": [
+        0,
+        0,
+        11.077100657412792
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 100,
+      "progress": 0.6993006993006993,
+      "offsets": [
+        0,
+        0,
+        10.672131968177741
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 101,
+      "progress": 0.7062937062937062,
+      "offsets": [
+        0,
+        0,
+        10.20997864347462
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 102,
+      "progress": 0.7132867132867133,
+      "offsets": [
+        0,
+        0,
+        9.69782017300437
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 103,
+      "progress": 0.7202797202797203,
+      "offsets": [
+        0,
+        0,
+        9.14283604646796
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 104,
+      "progress": 0.7272727272727273,
+      "offsets": [
+        0,
+        0,
+        8.552205753566328
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 105,
+      "progress": 0.7342657342657343,
+      "offsets": [
+        0,
+        0,
+        7.933108784000429
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 106,
+      "progress": 0.7412587412587412,
+      "offsets": [
+        0,
+        0,
+        7.292724627471212
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 107,
+      "progress": 0.7482517482517482,
+      "offsets": [
+        0,
+        0,
+        6.638232773679626
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 108,
+      "progress": 0.7552447552447552,
+      "offsets": [
+        0,
+        0,
+        5.976812712326623
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 109,
+      "progress": 0.7622377622377622,
+      "offsets": [
+        0,
+        0,
+        5.3156439331131535
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 110,
+      "progress": 0.7692307692307693,
+      "offsets": [
+        0,
+        0,
+        4.661905925740159
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 111,
+      "progress": 0.7762237762237763,
+      "offsets": [
+        0,
+        0,
+        4.022778179908606
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 112,
+      "progress": 0.7832167832167832,
+      "offsets": [
+        0,
+        0,
+        3.4054401853194403
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 113,
+      "progress": 0.7902097902097902,
+      "offsets": [
+        0,
+        0,
+        2.817071431673609
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 114,
+      "progress": 0.7972027972027972,
+      "offsets": [
+        0,
+        0,
+        2.2648514086720652
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 115,
+      "progress": 0.8041958041958042,
+      "offsets": [
+        0,
+        0,
+        1.7559596060157574
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 116,
+      "progress": 0.8111888111888111,
+      "offsets": [
+        0,
+        0,
+        1.2975755134056346
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 117,
+      "progress": 0.8181818181818182,
+      "offsets": [
+        0,
+        0,
+        0.8968786205426458
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 118,
+      "progress": 0.8251748251748252,
+      "offsets": [
+        0,
+        0,
+        0.5610484171277488
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 119,
+      "progress": 0.8321678321678322,
+      "offsets": [
+        0,
+        0,
+        0.29726439286189255
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 120,
+      "progress": 0.8391608391608392,
+      "offsets": [
+        0,
+        0,
+        0.11270603744602603
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 121,
+      "progress": 0.8461538461538461,
+      "offsets": [
+        0,
+        0,
+        0.014552840581096405
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 122,
+      "progress": 0.8531468531468531,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 123,
+      "progress": 0.8601398601398601,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 124,
+      "progress": 0.8671328671328671,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 125,
+      "progress": 0.8741258741258742,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 1,
+      "joint": 1,
+      "camera_scale": 58.0
+    },
+    {
+      "frame": 126,
+      "progress": 0.8811188811188811,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.9997408097559695,
+      "joint": 1,
+      "camera_scale": 58.02687072753906
+    },
+    {
+      "frame": 127,
+      "progress": 0.8881118881118881,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.9869089041664717,
+      "joint": 1,
+      "camera_scale": 59.3571662902832
+    },
+    {
+      "frame": 128,
+      "progress": 0.8951048951048951,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.9564558870148386,
+      "joint": 1,
+      "camera_scale": 62.51425552368164
+    },
+    {
+      "frame": 129,
+      "progress": 0.9020979020979021,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.9107565711800639,
+      "joint": 1,
+      "camera_scale": 67.25193786621094
+    },
+    {
+      "frame": 130,
+      "progress": 0.9090909090909091,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.8521857695411418,
+      "joint": 1,
+      "camera_scale": 73.32402038574219
+    },
+    {
+      "frame": 131,
+      "progress": 0.916083916083916,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.7831182949770661,
+      "joint": 1,
+      "camera_scale": 80.48430633544922
+    },
+    {
+      "frame": 132,
+      "progress": 0.9230769230769231,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.7059289603668297,
+      "joint": 1,
+      "camera_scale": 88.48658752441406
+    },
+    {
+      "frame": 133,
+      "progress": 0.9300699300699301,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.6229925785894288,
+      "joint": 1,
+      "camera_scale": 97.08466339111328
+    },
+    {
+      "frame": 134,
+      "progress": 0.9370629370629371,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.5366839625238566,
+      "joint": 1,
+      "camera_scale": 106.0323486328125
+    },
+    {
+      "frame": 135,
+      "progress": 0.9440559440559441,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.449377925049107,
+      "joint": 1,
+      "camera_scale": 115.08344268798828
+    },
+    {
+      "frame": 136,
+      "progress": 0.951048951048951,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.3634492790441738,
+      "joint": 1,
+      "camera_scale": 123.99172973632812
+    },
+    {
+      "frame": 137,
+      "progress": 0.958041958041958,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.2812728373880511,
+      "joint": 1,
+      "camera_scale": 132.5110321044922
+    },
+    {
+      "frame": 138,
+      "progress": 0.965034965034965,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.205223412959733,
+      "joint": 1,
+      "camera_scale": 140.3951416015625
+    },
+    {
+      "frame": 139,
+      "progress": 0.972027972027972,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.13767581863821332,
+      "joint": 1,
+      "camera_scale": 147.39785766601562
+    },
+    {
+      "frame": 140,
+      "progress": 0.9790209790209791,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.08100486730248546,
+      "joint": 1,
+      "camera_scale": 153.27297973632812
+    },
+    {
+      "frame": 141,
+      "progress": 0.986013986013986,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.03758537183154498,
+      "joint": 1,
+      "camera_scale": 157.77430725097656
+    },
+    {
+      "frame": 142,
+      "progress": 0.993006993006993,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0.009792145104385308,
+      "joint": 1,
+      "camera_scale": 160.65565490722656
+    },
+    {
+      "frame": 143,
+      "progress": 1.0,
+      "offsets": [
+        0,
+        0,
+        0
+      ],
+      "closeup": 0,
+      "joint": 0,
+      "camera_scale": 161.6708221435547
+    }
+  ]
+}

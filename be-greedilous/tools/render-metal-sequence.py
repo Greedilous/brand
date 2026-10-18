@@ -1,12 +1,12 @@
 """Physically lit image frames of the verified assembly; run with Blender.
---preview renders start / middle / final. No part rotations, morphs or scaling.
+--preview renders opening / both joints / final. No part rotations, morphs or scaling.
 """
 import bpy,math,json,sys,time,shutil
 from pathlib import Path
 from mathutils import Vector,Matrix
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/"creative/interlocking-triangle-20261018-v2/verified-assembly.blend"
-OUT=ROOT/"creative/metal-sequence-20261018/renders"
+OUT=ROOT/"creative/metal-closeup-20261018/renders"
 OUT.mkdir(parents=True,exist_ok=True)
 bpy.ops.wm.open_mainfile(filepath=str(SOURCE))
 scene=bpy.context.scene
@@ -14,9 +14,9 @@ prefs=bpy.context.preferences.addons["cycles"].preferences
 prefs.compute_device_type="METAL";prefs.get_devices()
 for device in prefs.devices:device.use=device.type=="METAL"
 scene.render.engine="CYCLES";scene.cycles.device="GPU"
-scene.cycles.samples=32;scene.cycles.use_denoising=True;scene.cycles.use_adaptive_sampling=True
+scene.cycles.samples=40;scene.cycles.use_denoising=True;scene.cycles.use_adaptive_sampling=True
 scene.cycles.adaptive_threshold=.035
-scene.render.resolution_x=1200;scene.render.resolution_y=1200;scene.render.resolution_percentage=100
+scene.render.resolution_x=1400;scene.render.resolution_y=1400;scene.render.resolution_percentage=100
 scene.render.film_transparent=True
 scene.render.image_settings.file_format="PNG";scene.render.image_settings.color_mode="RGBA"
 scene.view_settings.view_transform="AgX";scene.view_settings.look="AgX - Medium High Contrast"
@@ -69,30 +69,52 @@ black.node_tree.nodes["Principled BSDF"].inputs["Base Color"].default_value=(.00
 card.data.materials.append(black);card.visible_camera=False;card.visible_shadow=False
 def ease(t):
  t=max(0,min(1,t));return t*t*(3-2*t)
-COUNT=80
-frames=[0,39,79] if "--preview" in sys.argv else range(COUNT)
+COUNT=144
+
+def segment(p,start,end,a,b):
+ return a+(b-a)*ease((p-start)/(end-start))
+def distance(p,start):
+ if p<start+.13:return segment(p,start,start+.13,65,18)
+ if p<start+.19:return segment(p,start+.13,start+.19,18,12)
+ return segment(p,start+.19,start+.38,12,0)
+def close_weight(p,a,b,c,d):return ease((p-a)/(b-a))*(1-ease((p-c)/(d-c)))
+# These are the exact blind-end centers from the verified module, not hand-placed camera targets.
+h=100*math.sqrt(3)/2
+mouth=Vector((-13.75,2*h/3-h*.275,0))
+direction=Vector((math.cos(math.radians(-15)),math.sin(math.radians(-15)),0))
+end=mouth+direction*15.3
+joint_local=[end,Matrix.Rotation(math.radians(120),3,'Z')@end]
+frames=[0,43,107,143] if "--preview" in sys.argv else range(COUNT)
 started=time.time()
-rendered={}
+rendered={};timeline=[]
 for index in frames:
  progress=index/(COUNT-1)
- offsets=[0,65*(1-ease((progress-.06)/.37)),65*(1-ease((progress-.45)/.37))]
+ offsets=[0,distance(progress,.03),distance(progress,.47)]
+ # The validated first insertion must finish before the second can begin.
+ assert offsets[1]<.0001 or abs(offsets[2]-65)<.0001
  for obj,M,axis,offset in zip(parts,bases,axes,offsets):
   obj.matrix_local=M.copy();obj.location+=axis*offset
  bpy.context.view_layer.update()
  points=[obj.matrix_world@v.co for obj in parts for v in obj.data.vertices]
  xs=[p.dot(right) for p in points];ys=[p.dot(up) for p in points];zs=[p.dot(front) for p in points]
- focus=right*((min(xs)+max(xs))/2)+up*((min(ys)+max(ys))/2)+front*((min(zs)+max(zs))/2)
+ wide_focus=right*((min(xs)+max(xs))/2)+up*((min(ys)+max(ys))/2)+front*((min(zs)+max(zs))/2)
+ wide_scale=max(max(xs)-min(xs),max(ys)-min(ys))*1.08
+ w0=close_weight(progress,.08,.22,.43,.49)
+ w1=close_weight(progress,.52,.66,.88,1)
+ weight=max(w0,w1);joint_index=0 if w0>=w1 else 1
+ # Track the midpoint of the two opposing slot ends during their final insertion.
+ joint=parts[0].matrix_world@joint_local[joint_index]
+ root_rotation=parts[0].matrix_world.to_3x3()
+ joint+=root_rotation@axes[joint_index+1]*(offsets[joint_index+1]/2)
+ focus=wide_focus.lerp(joint,weight)
  camera.location=focus+front*500
- camera.data.type="ORTHO";camera.data.ortho_scale=max(max(xs)-min(xs),max(ys)-min(ys))*1.16
+ camera.data.type="ORTHO";camera.data.ortho_scale=wide_scale+(58-wide_scale)*weight
  scene.render.filepath=str(OUT/f"frame-{index:03d}.png")
- key=tuple(round(v,7) for v in offsets)
- if "--resume" in sys.argv and Path(scene.render.filepath).exists():
-  pass
- elif key in rendered:
-  shutil.copyfile(rendered[key],scene.render.filepath)
- else:
-  bpy.ops.render.render(write_still=True)
+ key=tuple(round(v,7) for v in offsets)+tuple(round(v,7) for v in focus)+(round(camera.data.ortho_scale,7),)
+ if "--resume" in sys.argv and Path(scene.render.filepath).exists():pass
+ elif key in rendered:shutil.copyfile(rendered[key],scene.render.filepath)
+ else:bpy.ops.render.render(write_still=True)
  rendered[key]=scene.render.filepath
+ timeline.append({"frame":index,"progress":progress,"offsets":offsets,"closeup":weight,"joint":joint_index,"camera_scale":camera.data.ortho_scale})
  print("FRAME_DONE",index,round(time.time()-started,2),flush=True)
-(OUT.parent/"render-manifest.json").write_text(json.dumps({"frames":COUNT,"width":1200,"height":1200,"samples":32,"renderer":"Blender Cycles Metal","source":"verified-assembly.blend","geometry":"Same fixed orientations and straight insertion translations as validated module.json","materials":["deep red anodized metal","brushed warm silver","polished silver"],"alpha":True},indent=2))
-
+(OUT.parent/"render-manifest.json").write_text(json.dumps({"frames":COUNT,"width":1400,"height":1400,"samples":40,"renderer":"Blender Cycles Metal","source":"verified-assembly.blend","geometry":"Same fixed orientations and straight insertion translations as validated module.json","materials":["deep red anodized metal","brushed warm silver","polished silver"],"alpha":True,"macro_span_mm":58,"timeline":timeline},indent=2))
