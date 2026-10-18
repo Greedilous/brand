@@ -48,3 +48,7 @@ Blender EXACT Boolean으로 0.5mm 간격, 786개 조합을 검사했고 이상�
 
 ## 게시
 빌드 없는 정적 페이지이며 저장소 main의 GitHub Pages를 유지합니다. 필요한 변경만 커밋하고 GitHub Desktop의 Push로 게시합니다. 원본 렌더와 .blend는 로컬 creative/에 보존합니다.
+
+## Alternative proposal 02
+
+[Oval connection — proposal 02](https://greedilous.github.io/brand/be-greedilous/proposal-02/) is a separate two-section presentation using the supplied four-slot ellipse. The original triangle proposal remains at the existing URL. Source, application prompts and geometry verification are in proposal-02/.

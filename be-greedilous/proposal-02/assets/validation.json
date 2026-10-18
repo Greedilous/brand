@@ -1,0 +1,17 @@
+{
+  "geometry_hash": "fa4463025a5e49d66e55e3e643a83e0ab0fa731ba6c201f13842f08c3c0fc978",
+  "method": "Exact Boolean intersections of closed solids at 0.5 mm insertion increments; fixed perpendicular orientations.",
+  "dimensions_mm": {
+    "width": 100.0,
+    "height": 43.3,
+    "thickness": 4.2,
+    "slot_width": 4.5,
+    "slot_depth": 10.5,
+    "end_clearance": 0.08
+  },
+  "nonmanifold_edges": 0,
+  "positive_control_mm3": 13491.244498297083,
+  "pair_checks": 606,
+  "maximum_intersection_mm3": 0.0,
+  "limitations": "Ideal geometric study, not a fabricated prototype or material/retention certification."
+}

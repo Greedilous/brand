@@ -1,0 +1,14 @@
+{
+  "frames": 144,
+  "widths": [
+    720,
+    1400
+  ],
+  "format": "webp",
+  "alpha": true,
+  "renderer": "Blender Cycles Metal",
+  "geometryHash": "fa4463025a5e49d66e55e3e643a83e0ab0fa731ba6c201f13842f08c3c0fc978",
+  "collisionChecks": 606,
+  "maxIntersection": 0,
+  "bytes": 13302312
+}

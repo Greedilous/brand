@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-18",
+  "proposal": 2,
+  "symbolReference": {
+    "source": "User-provided reference image",
+    "design": "Horizontal ellipse with four cardinal rectangular slots"
+  },
+  "motion": {
+    "generator": "Blender Cycles Metal",
+    "script": "../tools/render-oval-sequence.py",
+    "geometry": "assets/geometry.json",
+    "validation": "assets/validation.json"
+  },
+  "applicationGenerator": "Built-in image_gen",
+  "prompts": [
+    {
+      "key": "bag",
+      "prompt": "Use case: precise-object-edit. Edit image 1, the GREEDILOUS handbag photograph, for design proposal 02. Replace ONLY the triangular metal brooch with ONE small brushed silver metal brooch in the exact oval shape of image 2. The supplied second image is the exact new brand symbol: a horizontally elongated ellipse, width:height approximately 2.3:1, with FOUR straight rectangular open-ended slots cut inward at exact top, bottom, left, right cardinal positions. Each slot is about 4.5% of full width wide and about 10.5% of full width deep. Keep the oval horizontal, solid center, precisely symmetric. It is one continuous flat metal plate, not a ring, not a circle, no triangles, no curved motif. The dark areas in the symbol reference represent cutouts, NOT painted lines. Preserve all other bag details, burgundy leather, embossed GREEDILOUS text, stitching, handles, crop, travertine and warm directional lighting. New badge about 4 cm wide, understated jewelry size; four true open cutouts reveal the leather behind. Match perspective, brushed silver finish, slight thickness, edge highlights and realistic contact shadow. Keep image portrait 4:5. No additional brooches, no collage."
+    },
+    {
+      "key": "jacket",
+      "prompt": "Use case: precise-object-edit. Edit image 1, the fashion jacket photograph, for GREEDILOUS design proposal 02. Replace ONLY the triangular red brooch with ONE small deep burgundy red enamel and silver-edge brooch in the exact oval shape of image 2. The supplied second image is the exact new brand symbol: a horizontally elongated ellipse, width:height approximately 2.3:1, with FOUR straight rectangular open-ended slots cut inward at exact top, bottom, left, right cardinal positions. Each slot is about 4.5% of full width wide and about 10.5% of full width deep. Keep the oval horizontal, solid center, precisely symmetric. It is one continuous flat metal plate, not a ring, not a circle, no triangles, no curved motif. The dark areas in the symbol reference represent cutouts, NOT painted lines. Preserve the person, face crop, black wool tailoring, lapel, lighting, beige studio and editorial composition. Badge about 4 cm wide, one single horizontal flat piece, delicate shiny silver edge, true open slots through red metal revealing black textile beneath. Realistic pin contact shadow. Keep portrait 4:5. No added accessories, no text, no collage."
+    },
+    {
+      "key": "packaging",
+      "prompt": "Use case: product-mockup. Create a sophisticated GREEDILOUS fashion packaging campaign photograph, wide landscape 3:2. The reference image is the exact symbol to reproduce as a SMALL brushed silver foil stamp on each packaging lid: a horizontal elongated 2.3:1 ellipse with FOUR open rectangular cuts, one at each top bottom left right cardinal point; continuous solid center; each slot 4.5% of overall width wide and 10.5% deep. Preserve this shape precisely. Art direction: two premium deep burgundy rigid fashion gift boxes arranged diagonally at different heights on warm ivory travertine, one open box showing folded ivory tissue paper printed with an orderly repeated burgundy oval symbol pattern. Close editorial oblique overhead crop, strong afternoon architectural light, tactile uncoated paper, silvery foil glints, generous sculptural negative space. Small exact wordmark 'GREEDILOUS' below the foil symbol on one large lid. A single small flat silver oval symbol pin rests on the lid. No triangles, no circular logos, no invented interlocking objects, no interface or captions, no montage. Realistic high-end fashion still life, same burgundy-silver-cream palette as a luxury leather bag campaign."
+    },
+    {
+      "key": "retail",
+      "prompt": "Use case: compositing. Create a wide 16:9 high-end GREEDILOUS showroom campaign photograph. Image 1 is an ENGINEERED ASSEMBLY whose geometry must be reproduced exactly. It contains exactly three flat four-slotted ellipse plates: one deep burgundy horizontal plate, one silver plate extending to its right connected at a longitudinal slot, one silver upright plate joined perpendicularly at the center-back transverse slot. Keep all three shapes, all remaining open slots, exact mating positions, relative scales and 90 degree plane orientations from image 1. DO NOT redesign, bend, merge or add connectors. Image 2 is the flat symbol shape reference only. Place the exact complete three-plate metal sculpture from image 1 on a low warm travertine plinth in a fashion showroom window. Make sculpture 55cm wide; make the plinth support both lowest metal edges naturally without floating. Frame sculpture prominently occupying middle 65% of picture, dramatic side daylight, soft stone wall, rich burgundy vertical architectural panel at one side, cropped rail with two tailored dark garments far in the background. Polished silver with brushed detail and red anodized metal, editorial architecture photography. Understated small 'GREEDILOUS' lettering on rear wall, no other text, no interface, no collage. It is a faithful material-and-context application of the precise provided assembly, not a new object design."
+    }
+  ],
+  "archivedSymbolReference": "../creative/oval-proposal-20261018/provided-symbol.png",
+  "applicationFiles": "assets/applications/"
+}
