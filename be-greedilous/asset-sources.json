@@ -1,7 +1,7 @@
 [
   {
     "reference": "https://www.plus-ex.com/experience#unni",
-    "use": "Reference for the previous editorial layout; current page is a two-section scroll assembly and application image composition."
+    "use": "Reference for the editorial layout; a shared brand-origin opening precedes each symbol sequence and application gallery."
   },
   {
     "asset": "assets/PretendardVariable.woff2",
@@ -103,5 +103,13 @@
     "credit": "Original macro image sequence of the verified assembly",
     "camera": "Tracks exact slot blind-end midpoints, 58 mm macro span; bigger opening and slower final 12 mm insertion; no geometry or material changes",
     "validation": "Unchanged verified base transforms and axes; sequential motion asserted per frame; camera-timeline.json records every rendered pose"
+  },
+  {
+    "asset": "assets/origin-20261018/lookbook-*.webp",
+    "source": "assets/hero-lookbook-leap.png",
+    "credit": "Existing project image: GREEDILOUS lookbook pose edited with built-in ImageGen",
+    "promptFile": "creative/hero-lookbook-prompt.json",
+    "processing": "Responsive WebP export. One unchanged photographic unit repeated three times in HTML/CSS.",
+    "purpose": "Illustrate the legacy pattern-rich brand and an example of repetition as an identity rule. Three is a proposed example, not an established universal rule."
   }
 ]

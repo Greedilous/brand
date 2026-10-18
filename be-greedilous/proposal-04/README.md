@@ -4,7 +4,7 @@ Public page: https://greedilous.github.io/brand/be-greedilous/proposal-04/
 
 The supplied emblem repeats a curved ribbon form across both axes, meeting at a solid central waist. A higher-resolution user-provided version of the same silhouette is traced as editable cubic curves. The supplied logo is preserved rather than reconstructed with a different emblem.
 
-Two sections:
+Two concept sections, preceded by a shared full-screen brand-origin introduction:
 1. Full-screen silver emblem on deep burgundy. A rigid material reveal, two slow camera details (upper curve and central waist), and a return to the whole frontal symbol. Overview: “반복되는 곡선. 선명해지는 나.”
 2. Bag, jacket, packaging and retail application imagery together. One emblem each on the bag and jacket.
 
@@ -19,3 +19,5 @@ Shared top-center ghost links 01 / 02 / 03 / 04 appear on every proposal. The cu
 - Local originals: creative/symmetry-proposal-20261018/.
 - Application photos are generated fashion concepts, not product manufacturing documentation. Bag and packaging reuse the matching supplied-emblem concepts; jacket and retail are new built-in ImageGen edits. Prompts: asset-sources.json.
 - Reduced motion, disabled JavaScript and Canvas failure use the final static image.
+
+Shared introduction: the existing GREEDILOUS lookbook pose repeats three times above a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.

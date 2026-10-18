@@ -3,7 +3,7 @@ Public page: https://greedilous.github.io/brand/be-greedilous/proposal-03/
 
 The supplied calligraphic wordmark repeats through a 180-degree counterpart. The master SVG traces the complete supplied artwork without font substitution. Small raster-edge noise is smoothed while preserving the lettering silhouette; silhouette intersection-over-union at the source resolution is recorded in assets/trace-validation.json.
 
-Two sections only:
+Two concept sections, preceded by a shared full-screen brand-origin introduction:
 1. Full-screen metallic lettering. The rigid master turns subtly; two slow closeups reveal its curves and finish, then return to the complete frontal identity. The overview reads “반전되는 시선. 반복되는 나.”
 2. Bag, jacket, packaging and retail applications together. Bag and jacket each carry one paired-wordmark badge.
 
@@ -17,3 +17,5 @@ The typography is a material-and-camera reveal, not a mechanical slot assembly. 
 - Application photography is generated concept imagery, created with built-in image_gen. Prompts in asset-sources.json.
 - Reduced-motion / missing Canvas / disabled JavaScript fallbacks retain the static identity.
 - Desktop and mobile gallery layouts fit all four applications in one viewport.
+
+Shared introduction: the existing GREEDILOUS lookbook pose repeats three times above a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.
