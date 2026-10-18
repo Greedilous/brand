@@ -18,4 +18,4 @@ The typography is a material-and-camera reveal, not a mechanical slot assembly. 
 - Reduced-motion / missing Canvas / disabled JavaScript fallbacks retain the static identity.
 - Desktop and mobile gallery layouts fit all four applications in one viewport.
 
-Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–04 links stay hidden in the introduction, appear when the second section reaches the top of the viewport, and remain available afterward. They target #cover to compare concepts directly.
+Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–05 links stay hidden in the introduction, appear when the second section reaches the top of the viewport, and remain available afterward. They target #cover to compare concepts directly.

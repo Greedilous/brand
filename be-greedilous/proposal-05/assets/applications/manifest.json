@@ -1,0 +1,26 @@
+[
+  {
+    "key": "bag",
+    "width": 1122,
+    "height": 1402,
+    "maximumWebWidth": 1122
+  },
+  {
+    "key": "jacket",
+    "width": 1122,
+    "height": 1402,
+    "maximumWebWidth": 1122
+  },
+  {
+    "key": "packaging",
+    "width": 1536,
+    "height": 1024,
+    "maximumWebWidth": 1536
+  },
+  {
+    "key": "retail",
+    "width": 1672,
+    "height": 941,
+    "maximumWebWidth": 1600
+  }
+]

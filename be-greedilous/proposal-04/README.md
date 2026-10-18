@@ -8,7 +8,7 @@ Two concept sections, preceded by a shared full-screen brand-origin introduction
 1. Full-screen silver emblem on deep burgundy. A rigid material reveal, two slow camera details (upper curve and central waist), and a return to the whole frontal symbol. Overview: “반복되는 곡선. 선명해지는 나.”
 2. Bag, jacket, packaging and retail application imagery together. One emblem each on the bag and jacket.
 
-Shared top-center ghost links 01 / 02 / 03 / 04 appear on every proposal. The current concept uses aria-current. Links work without JavaScript and retain distinct shareable URLs.
+Shared top-center ghost links 01 / 02 / 03 / 04 / 05 appear on every proposal. The current concept uses aria-current. Links retain distinct shareable URLs; visibility is controlled by proposal-nav.js.
 
 - 144 Cycles frames, 720px and 1400px WebP versions.
 - Editable symbol: assets/symbol.svg and assets/symbol-curves.json.
@@ -20,4 +20,4 @@ Shared top-center ghost links 01 / 02 / 03 / 04 appear on every proposal. The cu
 - Application photos are generated fashion concepts, not product manufacturing documentation. Bag and packaging reuse the matching supplied-emblem concepts; jacket and retail are new built-in ImageGen edits. Prompts: asset-sources.json.
 - Reduced motion, disabled JavaScript and Canvas failure use the final static image.
 
-Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–04 links stay hidden in the introduction, appear when the second section reaches the top of the viewport, and remain available afterward. They target #cover to compare concepts directly.
+Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–05 links stay hidden in the introduction, appear when the second section reaches the top of the viewport, and remain available afterward. They target #cover to compare concepts directly.

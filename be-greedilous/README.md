@@ -4,11 +4,11 @@
 
 ## 구성
 세 섹션을 표시합니다.
-1. 네 시안의 공통 도입부. 딥 레드 키컬러를 적용한 체크·플라워 패브릭 패턴 배경을 배치하고, ‘화려함의 정의’라는 제목과 함께, 화려함을 반복이라는 언어로 정의하고 반복의 규칙으로 아이덴티티를 구체화한다는 내용을 하단 고스트 텍스트로 설명합니다.
+1. 다섯 시안의 공통 도입부. 딥 레드 키컬러를 적용한 체크·플라워 패브릭 패턴 배경을 배치하고, ‘화려함의 정의’라는 제목과 함께, 화려함을 반복이라는 언어로 정의하고 반복의 규칙으로 아이덴티티를 구체화한다는 내용을 하단 고스트 텍스트로 설명합니다.
 2. 풀스크린 금속 이미지 시퀀스. 동일한 삼각형 세 조각이 순차 결합하고, REPEAT / CONNECT와 “반복되는 나. 연결되는 그리디어스.”가 반투명하게 겹칩니다.
 3. 가방·자켓·패키지·쇼윈도 네 이미지를 한 화면에 모은 그리드.
 
-화면 상단 중앙에 시안을 전환하는 01·02·03·04 고스트 링크만 고정합니다. 현재 시안은 밝게 표시합니다. 진행 표시, 추가 컬러·심볼 설명 섹션, 푸터는 없습니다. 자연스러운 브라우저 스크롤을 사용하며 입력을 가로채지 않습니다. 기존 편집형 페이지 파일은 보존하지만 로드하지 않습니다.
+화면 상단 중앙에 시안을 전환하는 01·02·03·04·05 고스트 링크만 고정합니다. 현재 시안은 밝게 표시합니다. 진행 표시, 추가 컬러·심볼 설명 섹션, 푸터는 없습니다. 자연스러운 브라우저 스크롤을 사용하며 입력을 가로채지 않습니다. 기존 편집형 페이지 파일은 보존하지만 로드하지 않습니다.
 
 ## 금속 이미지 모션
 Blender Cycles에서 실제 조명과 반사, 브러시 결을 렌더한 144장의 투명 배경 WebP를 스크롤 위치에 맞춰 표시합니다. 레드 아노다이징 메탈, 브러시드 실버, 폴리시드 실버 소재를 사용했습니다. 이미지 사이에 부품을 변형하거나 크로스페이드하지 않습니다.
@@ -62,4 +62,8 @@ Blender EXACT Boolean으로 0.5mm 간격, 786개 조합을 검사했고 이상�
 
 ## Alternative proposal 04 and shared navigation
 
-[Symmetry — proposal 04](https://greedilous.github.io/brand/be-greedilous/proposal-04/) uses the supplied four-lobed symmetric emblem, a metallic detail sequence, and four fashion applications. The shared proposal-nav.css and four plain links in each index page provide top-center 01–04 navigation, active page state and keyboard focus. All four concepts remain directly addressable.
+[Symmetry — proposal 04](https://greedilous.github.io/brand/be-greedilous/proposal-04/) uses the supplied four-lobed symmetric emblem, a metallic detail sequence, and four fashion applications. The shared proposal-nav.css and five plain links in each index page provide top-center 01–05 navigation, active page state and keyboard focus. All five concepts remain directly addressable.
+
+## Alternative proposal 05
+
+[Interlace — proposal 05](https://greedilous.github.io/brand/be-greedilous/proposal-05/) uses the supplied crossing curves with an open central diamond, an exact traced metallic camera reveal, and four new fashion application images. The 05 link is available across all five concepts from the second section onward.

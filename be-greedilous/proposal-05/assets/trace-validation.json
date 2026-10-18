@@ -1,0 +1,10 @@
+{
+  "method": "Compare rasterized cubic outline with supplied symbol at original cropped resolution with 2px border",
+  "intersectionOverUnion": 0.9859777760979666,
+  "sourceWidth": 384,
+  "sourceHeight": 384,
+  "silhouetteWithinOneSourcePixel": 0.9991873913372137,
+  "closedContours": 6,
+  "centralDiamondOpen": true,
+  "symbolSubstitution": false
+}
