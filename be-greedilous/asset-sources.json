@@ -1,14 +1,7 @@
 [
   {
-    "asset": "assets/hero-lookbook-leap.png",
-    "source": "https://greedilous.com/web/product/medium/202602/333a36612b230aced1858de28d95c3ce.jpg",
-    "credit": "GREEDILOUS official lookbook; pose reinterpreted with the built-in OpenAI ImageGen tool for this rebranding concept",
-    "size": [
-      1122,
-      1402
-    ],
-    "transparent_background": true,
-    "prompt": "creative/hero-lookbook-prompt.json"
+    "reference": "https://www.plus-ex.com/experience#unni",
+    "use": "Editorial layout and pacing reference: full-width imagery, left section labels, right explanatory copy, generous whitespace, centered values and image-led applications. No reference images, videos or original prose copied."
   },
   {
     "asset": "assets/PretendardVariable.woff2",
@@ -16,36 +9,65 @@
     "credit": "Pretendard / SIL Open Font License"
   },
   {
-    "asset": "assets/echo-pattern.svg",
-    "source": "Original vector graphic created for this rebranding proposal",
-    "credit": "ECHO G concept study"
+    "asset": "assets/connection-20261018/campaign-*.webp",
+    "source": "Project-generated original: 01-verified-hero.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
   },
   {
-    "asset": "Inline SVG and CSS application graphics",
-    "source": "Original graphics created for this rebranding proposal",
-    "credit": "Concept studies: campaign, label, packaging"
+    "asset": "assets/connection-20261018/handbag-*.webp",
+    "source": "Project-generated original: 02-single-symbol-bag.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
   },
   {
-    "asset": "Inline SVG and CSS motion key visuals",
-    "source": "Original graphics and animation created for this rebranding proposal",
-    "credit": "Three motion studies from the ECHO G geometry: Overlap, Radiate, Rhythm"
+    "asset": "assets/connection-20261018/connection-*.webp",
+    "source": "Project-generated original: 03-verified-joint-macro.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
   },
   {
-    "reference": "https://www.plus-ex.com/experience#sll",
-    "use": "Narrative and presentation reference only; no Plus X images, videos, logos or text were reproduced"
+    "asset": "assets/connection-20261018/jacket-*.webp",
+    "source": "Project-generated original: 04-single-symbol-jacket.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
   },
   {
-    "asset": "Site color system and palette.css",
-    "source": "Original proposed palette based on the user’s description of an existing slightly dark red brand color",
+    "asset": "assets/connection-20261018/packaging-*.webp",
+    "source": "Project-generated original: 05-verified-packaging.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
+  },
+  {
+    "asset": "assets/connection-20261018/retail-*.webp",
+    "source": "Project-generated original: 06-verified-retail-installation.png",
+    "credit": "GREEDILOUS concept image generated with built-in ImageGen, 2026-10-18",
+    "processing": "Uncropped WebP exports at responsive widths",
+    "status": "Rebranding concept, not a photograph of a manufactured product"
+  },
+  {
+    "asset": "assets/connection-20261018/assembly-*.webp",
+    "source": "07-assembly-sequence.png",
+    "credit": "Original Blender render of the interlocking reference geometry; ideal rigid-solid interference and sampled insertion path checked"
+  },
+  {
+    "asset": "Inline symbol; assets/connection-20261018/symbol.svg; assets/favicon.svg",
+    "source": "User-supplied triangle with three open-edge slots, 2026-10-18",
+    "credit": "Vector outline based on user reference"
+  },
+  {
+    "asset": "case-study.css",
     "colors": {
       "key_red": "#B31B2B",
       "deep_red": "#650F1D",
-      "vivid_red": "#F25A50",
-      "ivory": "#F6F1E9"
-    }
-  },
-  {
-    "reference": "https://www.plus-ex.com/experience#unni",
-    "use": "Section layout reference: compact editorial introductions, full-width visuals, symbol development, asymmetric application layouts. Original GREEDILOUS graphics only; no Plus X images, videos, logos or text were reproduced."
+      "ivory": "#F6F1E9",
+      "silver": "#B8B8B4"
+    },
+    "source": "Proposed palette based on the user's existing dark-red direction; silver represents a material finish"
   }
 ]
