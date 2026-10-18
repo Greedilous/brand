@@ -1,0 +1,7 @@
+{
+  "method": "Compare rasterized cubic outline with thresholded supplied lettering at original 500 × 192 including a 2px transparent border resolution",
+  "intersectionOverUnion": 0.974831788752063,
+  "sourceWidth": 500,
+  "sourceHeight": 192,
+  "fontSubstitution": false
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-18",
+  "proposal": 3,
+  "wordmarkReference": {
+    "source": "User-provided screenshot",
+    "archivedCopy": "../creative/script-proposal-20261018/provided-wordmark.png"
+  },
+  "master": "assets/wordmark.svg",
+  "curves": "assets/wordmark-curves.json",
+  "traceValidation": "assets/trace-validation.json",
+  "motion": {
+    "generator": "Blender Cycles Metal",
+    "script": "../tools/render-script-sequence.py",
+    "description": "Rigid lettering with a camera reveal; no mechanical assembly or deformation."
+  },
+  "applicationGenerator": "Built-in image_gen",
+  "applicationFiles": "assets/applications/",
+  "prompts": [
+    {
+      "key": "bag",
+      "prompt": "Use case: precise-object-edit. In image 1 replace ONLY the small silver oval emblem with a fine polished silver metal badge matching image 2 EXACTLY. The supplied GREEDILOUS logo reference is the EXACT master artwork: lowercase flowing connected calligraphy spelling 'greedilous' on top, paired with an upside-down 180-degree rotated copy below, closely meeting through elegant swashes at their central seam. Reproduce the complete two-row rotationally repeated wordmark as ONE identity unit. Preserve the reference lettering contours, g loops, tall ascenders, thin-thick strokes, dotted i and central flourishes. DO NOT substitute a font, use uppercase, make only one row, change spelling, add an oval/triangle, or invent different lettering. Grey background is reference only; retain only the white lettering shape, with counters and gaps open. Badge about 5cm wide, centered at the same right-front bag placement, subtle raised metal letters with realistic tiny mounting shadows and open letter counters revealing burgundy leather. Preserve the bag, leather texture, seams, hardware, handles, embossed bottom wordmark, lighting and portrait crop entirely. Fashion jewelry scale, no extra badges or text. The top row reads greedilous; the lower row is precisely its upside-down rotational counterpart."
+    },
+    {
+      "key": "jacket",
+      "prompt": "Use case: precise-object-edit. In image 1 replace ONLY the small red oval brooch with ONE elegant polished silver double-calligraphy GREEDILOUS brooch whose silhouette exactly matches image 2. The supplied GREEDILOUS logo reference is the EXACT master artwork: lowercase flowing connected calligraphy spelling 'greedilous' on top, paired with an upside-down 180-degree rotated copy below, closely meeting through elegant swashes at their central seam. Reproduce the complete two-row rotationally repeated wordmark as ONE identity unit. Preserve the reference lettering contours, g loops, tall ascenders, thin-thick strokes, dotted i and central flourishes. DO NOT substitute a font, use uppercase, make only one row, change spelling, add an oval/triangle, or invent different lettering. Grey background is reference only; retain only the white lettering shape, with counters and gaps open. Approximately 5cm wide, delicate raised silver strokes on the same black lapel, open spaces show textile, realistic discreet brooch mounting. Keep the person, facial crop, red lips, wool, tailoring, cream setting and portrait composition unchanged. One complete paired-wordmark badge only, do not retain the old oval."
+    },
+    {
+      "key": "packaging",
+      "prompt": "Use case: product-mockup. A premium GREEDILOUS fashion packaging still life, wide landscape 3:2 editorial photograph. The supplied GREEDILOUS logo reference is the EXACT master artwork: lowercase flowing connected calligraphy spelling 'greedilous' on top, paired with an upside-down 180-degree rotated copy below, closely meeting through elegant swashes at their central seam. Reproduce the complete two-row rotationally repeated wordmark as ONE identity unit. Preserve the reference lettering contours, g loops, tall ascenders, thin-thick strokes, dotted i and central flourishes. DO NOT substitute a font, use uppercase, make only one row, change spelling, add an oval/triangle, or invent different lettering. Grey background is reference only; retain only the white lettering shape, with counters and gaps open. On a large burgundy uncoated rigid gift box lid, reproduce that complete paired script logo in brushed silver foil, large enough to clearly read both rows. Second open matching box upper right with ivory tissue paper printed in an orderly repeat of the same COMPLETE paired wordmark in muted burgundy, not generic text. Angled overhead close framing, warm travertine, diagonal architectural light and tactile paper, understated art direction. Two boxes, no jewelry or other symbols, no extra wordmark below logo, no captions, no collage."
+    },
+    {
+      "key": "retail",
+      "prompt": "Use case: product-mockup. Wide 16:9 fashion architecture editorial photograph for GREEDILOUS concept 03. The supplied GREEDILOUS logo reference is the EXACT master artwork: lowercase flowing connected calligraphy spelling 'greedilous' on top, paired with an upside-down 180-degree rotated copy below, closely meeting through elegant swashes at their central seam. Reproduce the complete two-row rotationally repeated wordmark as ONE identity unit. Preserve the reference lettering contours, g loops, tall ascenders, thin-thick strokes, dotted i and central flourishes. DO NOT substitute a font, use uppercase, make only one row, change spelling, add an oval/triangle, or invent different lettering. Grey background is reference only; retain only the white lettering shape, with counters and gaps open. Apply the exact complete paired script identity as large polished silver dimensional wall lettering across the central upper-mid part of a deep burgundy lacquer wall in a refined fashion boutique. Preserve letter holes, each silver stroke has realistic 1cm depth, subtle wall shadow and soft specular highlights. Logo is approximately 1m wide, fully visible, occupies middle 55% width. Frame balanced with low travertine plinth and a cropped rail of black tailored garments at far right, warm directional daylight, ivory floor. No people, no triangle or ellipse, no extra words or captions. Photorealistic high-end store brand application, do not change the supplied calligraphy."
+    }
+  ]
+}

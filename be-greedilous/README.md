@@ -52,3 +52,7 @@ Blender EXACT Boolean으로 0.5mm 간격, 786개 조합을 검사했고 이상�
 ## Alternative proposal 02
 
 [Oval connection — proposal 02](https://greedilous.github.io/brand/be-greedilous/proposal-02/) is a separate two-section presentation using the supplied four-slot ellipse. The original triangle proposal remains at the existing URL. Source, application prompts and geometry verification are in proposal-02/.
+
+## Alternative proposal 03
+
+[Reflection lettering — proposal 03](https://greedilous.github.io/brand/be-greedilous/proposal-03/) preserves the supplied paired script wordmark and presents a metallic camera reveal followed by four application concepts. Source and image prompts are in proposal-03/.

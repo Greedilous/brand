@@ -1,0 +1,13 @@
+{
+  "frames": 144,
+  "widths": [
+    720,
+    1400
+  ],
+  "format": "webp",
+  "alpha": true,
+  "renderer": "Blender Cycles Metal",
+  "traceSilhouetteIoU": 0.974831788752063,
+  "motion": "Rigid rotation and camera detail reveal; no letter deformation or simulated joint assembly",
+  "bytes": 24365942
+}
