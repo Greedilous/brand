@@ -7,7 +7,7 @@
 1. 풀스크린 금속 이미지 시퀀스. 동일한 삼각형 세 조각이 순차 결합하고, REPEAT / CONNECT와 “반복되는 나. 연결되는 그리디어스.”가 반투명하게 겹칩니다.
 2. 가방·자켓·패키지·쇼윈도 네 이미지를 한 화면에 모은 그리드.
 
-GNB, 탐색 버튼, 진행 표시, 별도 소개·컬러·심볼 섹션, 푸터는 없습니다. 자연스러운 브라우저 스크롤을 사용하며 입력을 가로채지 않습니다. 기존 편집형 페이지 파일은 보존하지만 로드하지 않습니다.
+화면 상단 중앙에 시안을 전환하는 01·02·03·04 고스트 링크만 고정합니다. 현재 시안은 밝게 표시합니다. 진행 표시, 별도 소개·컬러·심볼 섹션, 푸터는 없습니다. 자연스러운 브라우저 스크롤을 사용하며 입력을 가로채지 않습니다. 기존 편집형 페이지 파일은 보존하지만 로드하지 않습니다.
 
 ## 금속 이미지 모션
 Blender Cycles에서 실제 조명과 반사, 브러시 결을 렌더한 144장의 투명 배경 WebP를 스크롤 위치에 맞춰 표시합니다. 레드 아노다이징 메탈, 브러시드 실버, 폴리시드 실버 소재를 사용했습니다. 이미지 사이에 부품을 변형하거나 크로스페이드하지 않습니다.
@@ -56,3 +56,7 @@ Blender EXACT Boolean으로 0.5mm 간격, 786개 조합을 검사했고 이상�
 ## Alternative proposal 03
 
 [Reflection lettering — proposal 03](https://greedilous.github.io/brand/be-greedilous/proposal-03/) preserves the supplied paired script wordmark and presents a metallic camera reveal followed by four application concepts. Source and image prompts are in proposal-03/.
+
+## Alternative proposal 04 and shared navigation
+
+[Symmetry — proposal 04](https://greedilous.github.io/brand/be-greedilous/proposal-04/) uses the supplied four-lobed symmetric emblem, a metallic detail sequence, and four fashion applications. The shared proposal-nav.css and four plain links in each index page provide top-center 01–04 navigation, active page state and keyboard focus. All four concepts remain directly addressable.

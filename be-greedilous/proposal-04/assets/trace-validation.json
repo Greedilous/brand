@@ -1,0 +1,13 @@
+{
+  "method": "Compare rasterized cubic outline with thresholded supplied symbol at original 596 x 655 including a 2px transparent border resolution",
+  "intersectionOverUnion": 0.9910131045034258,
+  "sourceWidth": 596,
+  "sourceHeight": 655,
+  "referenceMatch": {
+    "latestToHigherResolutionSilhouetteIoU": 0.9721266255089978,
+    "note": "The latest supplied screenshot and the earlier larger supplied symbol depict the same mark; use the larger source for smoother curves.",
+    "silhouetteWithinOneSourcePixel": 1.0,
+    "tolerancePixels": 1
+  },
+  "symbolSubstitution": false
+}
