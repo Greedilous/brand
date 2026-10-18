@@ -1,5 +1,6 @@
-/* Four linked concepts; navigation is intentionally the only persistent UI. */
+/* Four linked concepts, visible from the second section onward. */
 .proposal-nav{position:fixed;z-index:30;top:max(18px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);display:flex;gap:6px;width:max-content}
+.proposal-nav[hidden]{display:none}
 .proposal-nav a{display:grid;place-items:center;min-width:44px;min-height:44px;padding:0 10px;border:1px solid rgba(255,244,232,.42);border-radius:3px;background:rgba(40,6,14,.62);color:#fff4e8;text-decoration:none;font-size:11px;line-height:1;letter-spacing:.08em;font-variant-numeric:tabular-nums;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .2s,border-color .2s,color .2s}
 .proposal-nav a:hover{background:rgba(65,13,28,.8);border-color:#fff4e8}
 .proposal-nav a[aria-current="page"]{background:rgba(255,244,232,.9);border-color:rgba(255,244,232,.9);color:#650f1d}

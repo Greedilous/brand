@@ -17,6 +17,7 @@ Blender Cycles에서 실제 조명과 반사, 브러시 결을 렌더한 144장�
 
 - index.html: 공통 도입부, 심볼 시퀀스, 어플리케이션의 세 섹션
 - brand-origin.css: 화면을 가득 채우는 패브릭 패턴 이미지와 하단 고스트 오버뷰. 번호 링크는 각 페이지의 #cover로 이동해 도입부를 다시 스크롤할 필요 없이 시안을 비교합니다.
+- proposal-nav.js / proposal-nav.css: 첫 섹션에서는 시안 버튼을 숨기고, 두 번째 섹션부터 표시합니다. 첫 섹션으로 돌아오면 다시 숨깁니다.
 - assembly.css: 풀스크린 스테이지, 고스트 텍스트, 반응형 그리드
 - app.js: Canvas 2D 이미지 시퀀스, 우선 로딩, 디코딩 캐시 제한, 스크롤 연동
 - assets/metal-closeup-20261018/: 1400px 데스크톱 / 720px 모바일 이미지 각 144장 및 manifest.json / camera-timeline.json
