@@ -20,4 +20,4 @@ Shared top-center ghost links 01 / 02 / 03 / 04 appear on every proposal. The cu
 - Application photos are generated fashion concepts, not product manufacturing documentation. Bag and packaging reuse the matching supplied-emblem concepts; jacket and retail are new built-in ImageGen edits. Prompts: asset-sources.json.
 - Reduced motion, disabled JavaScript and Canvas failure use the final static image.
 
-Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.
+Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–04 links target #cover to compare concepts directly.

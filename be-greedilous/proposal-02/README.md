@@ -13,4 +13,4 @@ The supplied horizontal ellipse has four rectangular slots. A single module beco
 - Source symbol and geometry are code-native; application prompt set is in asset-sources.json.
 - Render script: ../tools/render-oval-sequence.py. Generated source PNGs and .blend remain in local creative/oval-proposal-20261018.
 
-Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind a ghost-text rationale (pattern and flamboyance, repetition, a repeating brand attitude, identity rules). Three is an illustrative rule, not a universal constraint on these proposals. The top-center 01–04 links target #cover to compare concepts directly.
+Shared introduction: a full-bleed check-and-floral textile pattern in the deep red key colour appears behind the ghost title “화려함의 정의” and concise copy defining flamboyance through repetition and shaping identity through rules of repetition. The top-center 01–04 links target #cover to compare concepts directly.
